@@ -2,7 +2,7 @@
 
 #### Please copy paste below code
 
-'''
+```
 module "dev" {
     source = "oksy83/keypair/aws"
     region = "us-east-1"
@@ -17,4 +17,4 @@ output region {
 output key_name {
     value = module.dev.key_name
 }
-'''
+```
